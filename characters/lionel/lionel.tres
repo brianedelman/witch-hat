@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=6 format=3 uid="uid://dfsm85h53fjd"]
 
 [ext_resource type="Texture2D" uid="uid://cby74ro0kcwwv" path="res://art/lionel-square.png" id="1_6mvgs"]
-[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_evd68"]
+[ext_resource type="Script" uid="uid://3y3kmxhwma5o" path="res://custom_resources/character_stats.gd" id="1_evd68"]
 [ext_resource type="Texture2D" uid="uid://cnwbo6idnhmjd" path="res://art/lionel-square-knocked-out.png" id="2_3yoxg"]
 [ext_resource type="Texture2D" uid="uid://uatsx5sx1x7d" path="res://art/lionel-portrait.png" id="2_7w2bg"]
 [ext_resource type="StyleBox" uid="uid://cceulq8q7c32g" path="res://characters/lionel/lionel_theme.tres" id="5_hn1l6"]

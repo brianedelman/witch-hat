@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=6 format=3 uid="uid://cbu0s6v00u0g0"]
 
-[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_75whp"]
+[ext_resource type="Script" uid="uid://d32qm3uexi8cf" path="res://custom_resources/card_pile.gd" id="1_75whp"]
 [ext_resource type="Resource" uid="uid://tns2s2s7l1og" path="res://characters/quixley/cards/quixley_sample_rare.tres" id="1_bsgo6"]
-[ext_resource type="Script" path="res://custom_resources/card.gd" id="1_tu4ad"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="1_tu4ad"]
 [ext_resource type="Resource" uid="uid://udi5n0xm4tso" path="res://characters/quixley/cards/atk_bonk.tres" id="2_c8jxg"]
 [ext_resource type="Resource" uid="uid://3k82puq4fyck" path="res://characters/quixley/cards/quixley_sample_uncommon.tres" id="3_8swwk"]
 

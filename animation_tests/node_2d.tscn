@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://by8krik3hfr3o"]
 
-[ext_resource type="Script" path="res://sleuth_booth.gd" id="1_v7wwd"]
+[ext_resource type="Script" uid="uid://y73mgu6hrref" path="res://sleuth_booth.gd" id="1_v7wwd"]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2(111, 105)

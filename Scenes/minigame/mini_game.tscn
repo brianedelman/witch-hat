@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://rj8jnsg3slpm"]
 
-[ext_resource type="Script" path="res://Scenes/minigame/mini_game.gd" id="1_8uusw"]
+[ext_resource type="Script" uid="uid://dbbumvgcm63ye" path="res://Scenes/minigame/mini_game.gd" id="1_8uusw"]
 [ext_resource type="Texture2D" uid="uid://bi4h4kcaxwn5o" path="res://art/verdant-valley-generated-map.png" id="1_gq8e0"]
 [ext_resource type="Resource" uid="uid://dwa6ombgv4jbb" path="res://Scenes/minigame/playing_cards.tres" id="2_ctxfd"]
 [ext_resource type="PackedScene" uid="uid://d1swjjxcq8gce" path="res://Scenes/minigame/column.tscn" id="2_ou1wt"]

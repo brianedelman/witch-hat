@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="RunStartup" load_steps=2 format=3 uid="uid://b43p6lo4fgkcl"]
+[gd_resource type="Resource" script_class="RunStartup" load_steps=3 format=3 uid="uid://b43p6lo4fgkcl"]
 
-[ext_resource type="Script" path="res://custom_resources/run_startup.gd" id="1_2lvgi"]
+[ext_resource type="Script" uid="uid://bp4u6rn3e7o8o" path="res://custom_resources/run_startup.gd" id="1_2lvgi"]
+[ext_resource type="Script" uid="uid://3y3kmxhwma5o" path="res://custom_resources/character_stats.gd" id="1_qp4g6"]
 
 [resource]
 script = ExtResource("1_2lvgi")
 type = 0
-character_list = Array[Resource("res://custom_resources/character_stats.gd")]([])
+character_list = Array[ExtResource("1_qp4g6")]([])

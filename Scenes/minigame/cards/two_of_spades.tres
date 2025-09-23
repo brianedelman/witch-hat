@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="PlayingCard" load_steps=3 format=3 uid="uid://b7m4rsknac7hd"]
 
 [ext_resource type="Texture2D" uid="uid://coo8auee8cfxj" path="res://art/minigame/card_spades_02.png" id="1_gdhf5"]
-[ext_resource type="Script" path="res://Scenes/minigame/custom_resources/playing_card.gd" id="2_cmuum"]
+[ext_resource type="Script" uid="uid://nig38qlnuw67" path="res://Scenes/minigame/custom_resources/playing_card.gd" id="2_cmuum"]
 
 [resource]
 script = ExtResource("2_cmuum")

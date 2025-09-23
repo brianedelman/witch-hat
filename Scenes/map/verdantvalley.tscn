@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cml6y2jtpgkt8"]
 
-[ext_resource type="Script" path="res://Scenes/map/verdantvalley.gd" id="1_ssn58"]
+[ext_resource type="Script" uid="uid://ce671grb72ryu" path="res://Scenes/map/verdantvalley.gd" id="1_ssn58"]
 [ext_resource type="Texture2D" uid="uid://fl0mttty00h1" path="res://art/world_map_assets/VerdantValleysInspo.jpg" id="1_xktbq"]
 
 [node name="Control" type="Control"]

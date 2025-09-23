@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://c0ua65cj1rgjd"]
 
-[ext_resource type="Script" path="res://Scenes/card_target_selector/card_target_selector.gd" id="1_dutl1"]
+[ext_resource type="Script" uid="uid://cbi4yl5ag6fb0" path="res://Scenes/card_target_selector/card_target_selector.gd" id="1_dutl1"]
 [ext_resource type="PackedScene" uid="uid://n3blfq1ysk8t" path="res://Scenes/card_target_selector/card_arc.tscn" id="1_nb3lp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s1wcr"]

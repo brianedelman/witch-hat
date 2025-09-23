@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=7 format=3 uid="uid://dpp3ntapusw03"]
 
-[ext_resource type="Script" path="res://custom_resources/card.gd" id="1_0acdv"]
-[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_h58yw"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="1_0acdv"]
+[ext_resource type="Script" uid="uid://d32qm3uexi8cf" path="res://custom_resources/card_pile.gd" id="1_h58yw"]
 [ext_resource type="Resource" uid="uid://li62ketf30xw" path="res://characters/elian/cards/elian_sample_attack.tres" id="1_v0f3g"]
 [ext_resource type="Resource" uid="uid://cs4gum7nbrd8c" path="res://characters/elian/cards/elian_block_self.tres" id="2_aprv1"]
 [ext_resource type="Resource" uid="uid://dgj4o6lhvt1bs" path="res://characters/elian/cards/elian_sample_rare.tres" id="3_wkrb0"]

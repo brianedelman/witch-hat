@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://b6x5vac7o05r7"]
 
 [ext_resource type="Texture2D" uid="uid://dk1b8wufrdw1x" path="res://art/witch.png" id="1_p6mst"]
-[ext_resource type="Script" path="res://Scenes/ui/main_menu.gd" id="1_sbsvd"]
+[ext_resource type="Script" uid="uid://ds0jd07lbs2x1" path="res://Scenes/ui/main_menu.gd" id="1_sbsvd"]
 [ext_resource type="Texture2D" uid="uid://b78t6wiyxic28" path="res://art/timea-portrait.png" id="2_18rvl"]
 [ext_resource type="Resource" uid="uid://b43p6lo4fgkcl" path="res://Scenes/run/run_startup.tres" id="2_lfqa5"]
 [ext_resource type="Texture2D" uid="uid://bxwqtitj8cqn4" path="res://art/elian-portrait.png" id="3_1y55s"]

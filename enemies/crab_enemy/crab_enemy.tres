@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="EnemyStats" load_steps=4 format=3 uid="uid://5jdlvlg5seqr"]
 
 [ext_resource type="PackedScene" uid="uid://beprbqu8na5fn" path="res://enemies/crab_enemy/crab_enemy_ai.tscn" id="1_05b52"]
-[ext_resource type="Script" path="res://custom_resources/enemy_stats.gd" id="1_ga5md"]
+[ext_resource type="Script" uid="uid://d2lbdv4q3rdsg" path="res://custom_resources/enemy_stats.gd" id="1_ga5md"]
 [ext_resource type="Texture2D" uid="uid://cepi6cr04afw8" path="res://art/nicole-badger.png" id="2_ycmgu"]
 
 [resource]

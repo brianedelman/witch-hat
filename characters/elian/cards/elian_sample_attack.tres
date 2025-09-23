@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=4 format=3 uid="uid://li62ketf30xw"]
 
 [ext_resource type="Texture2D" uid="uid://dojlh80rte165" path="res://art/tile_0107.png" id="1_tqpck"]
-[ext_resource type="Script" path="res://characters/quixley/cards/atk_bonk.gd" id="2_d88kd"]
+[ext_resource type="Script" uid="uid://b8430a0b7x2vx" path="res://characters/quixley/cards/atk_bonk.gd" id="2_d88kd"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="3_wv1ir"]
 
 [resource]

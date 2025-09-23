@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://yfab22vj7w5o"]
 
-[ext_resource type="Script" path="res://Scenes/map/map_room.gd" id="1_sgcui"]
+[ext_resource type="Script" uid="uid://n3ckc0fmbvi3" path="res://Scenes/map/map_room.gd" id="1_sgcui"]
 [ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="1_siqu6"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1ymwm"]
@@ -81,9 +81,9 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kfhlc"]
 _data = {
-"RESET": SubResource("Animation_1nlnm"),
-"highlight": SubResource("Animation_p5r53"),
-"select": SubResource("Animation_sw2fc")
+&"RESET": SubResource("Animation_1nlnm"),
+&"highlight": SubResource("Animation_p5r53"),
+&"select": SubResource("Animation_sw2fc")
 }
 
 [node name="MapRoom" type="Area2D"]
@@ -109,7 +109,7 @@ shape = SubResource("CircleShape2D_1ymwm")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_kfhlc")
+&"": SubResource("AnimationLibrary_kfhlc")
 }
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

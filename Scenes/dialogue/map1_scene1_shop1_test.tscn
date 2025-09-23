@@ -1,13 +1,13 @@
 [gd_scene load_steps=28 format=3 uid="uid://jm8dtopu43yr"]
 
-[ext_resource type="Script" path="res://Scenes/dialogue/dialogue.gd" id="1_6r5ce"]
-[ext_resource type="Script" path="res://custom_resources/dialogue/dialogue_item.gd" id="2_gb7mu"]
+[ext_resource type="Script" uid="uid://bs22n1e1mv4pk" path="res://Scenes/dialogue/dialogue.gd" id="1_6r5ce"]
+[ext_resource type="Script" uid="uid://dp2c6s2ivlvh0" path="res://custom_resources/dialogue/dialogue_item.gd" id="2_gb7mu"]
 [ext_resource type="Texture2D" uid="uid://mqbre4cm43ru" path="res://art/ms-construe-portrait.png" id="3_5k2e0"]
-[ext_resource type="Script" path="res://custom_resources/dialogue/dialogue_choice.gd" id="4_tlrik"]
+[ext_resource type="Script" uid="uid://u2vqvobsk7w0" path="res://custom_resources/dialogue/dialogue_choice.gd" id="4_tlrik"]
 [ext_resource type="Texture2D" uid="uid://canv7jl05x2ox" path="res://art/tutorials/dialogue/emotion_regular.png" id="5_24en7"]
 [ext_resource type="Texture2D" uid="uid://bxfyp50shaqnr" path="res://art/quixley-portrait.png" id="6_4bfsh"]
 [ext_resource type="Texture2D" uid="uid://c046pjyo2jq2h" path="res://art/tutorials/dialogue/emotion_happy.png" id="7_4ri43"]
-[ext_resource type="Shader" path="res://Scenes/dialogue/sliding_background.gdshader" id="9_sojws"]
+[ext_resource type="Shader" uid="uid://b6hc6xrhhp2pe" path="res://Scenes/dialogue/sliding_background.gdshader" id="9_sojws"]
 [ext_resource type="Texture2D" uid="uid://dmslpsi03el70" path="res://art/tutorials/dialogue/bubble_pattern.png" id="10_3todb"]
 [ext_resource type="AudioStream" uid="uid://buy4skkg7ckbc" path="res://art/tutorials/dialogue/talking_synth.ogg" id="11_uqaui"]
 
@@ -116,10 +116,10 @@ text = "But don’t say I didn’t warn you–not even His Shellfishness, the Po
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_y6x0q"]
 shader = ExtResource("9_sojws")
+shader_parameter/pattern_sampler = ExtResource("10_3todb")
 shader_parameter/bg_color = Color(0.980392, 0.94902, 0.72549, 1)
 shader_parameter/pattern_color = Color(0.996078, 0.878431, 0.564706, 1)
 shader_parameter/pattern_size = 256.0
-shader_parameter/pattern_sampler = ExtResource("10_3todb")
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3

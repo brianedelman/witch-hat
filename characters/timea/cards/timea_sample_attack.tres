@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=4 format=3 uid="uid://cxhtbg1b7hpxr"]
 
 [ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="1_7y70b"]
-[ext_resource type="Script" path="res://characters/timea/cards/timea_sample_attack.gd" id="1_hjin3"]
+[ext_resource type="Script" uid="uid://dtvo13dbcpcmh" path="res://characters/timea/cards/timea_sample_attack.gd" id="1_hjin3"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="3_korok"]
 
 [resource]

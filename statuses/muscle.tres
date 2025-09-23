@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="MuscleStatus" load_steps=3 format=3 uid="uid://by3rgdpyk1ahn"]
 
 [ext_resource type="Texture2D" uid="uid://n3m0yeu8gm0a" path="res://art/muscle.png" id="1_boi22"]
-[ext_resource type="Script" path="res://statuses/muscle.gd" id="1_ntlyb"]
+[ext_resource type="Script" uid="uid://dflmnvog33r3r" path="res://statuses/muscle.gd" id="1_ntlyb"]
 
 [resource]
 script = ExtResource("1_ntlyb")

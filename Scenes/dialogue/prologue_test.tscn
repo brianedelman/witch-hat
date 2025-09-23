@@ -1,14 +1,14 @@
 [gd_scene load_steps=27 format=3 uid="uid://4padf275tyu1"]
 
-[ext_resource type="Script" path="res://Scenes/dialogue/dialogue.gd" id="1_eaeox"]
-[ext_resource type="Script" path="res://custom_resources/dialogue/dialogue_item.gd" id="2_clvxj"]
+[ext_resource type="Script" uid="uid://bs22n1e1mv4pk" path="res://Scenes/dialogue/dialogue.gd" id="1_eaeox"]
+[ext_resource type="Script" uid="uid://dp2c6s2ivlvh0" path="res://custom_resources/dialogue/dialogue_item.gd" id="2_clvxj"]
 [ext_resource type="Texture2D" uid="uid://r2wqp8aowijw" path="res://art/taylor-profile.png" id="3_my4wg"]
-[ext_resource type="Script" path="res://custom_resources/dialogue/dialogue_choice.gd" id="4_q83ot"]
+[ext_resource type="Script" uid="uid://u2vqvobsk7w0" path="res://custom_resources/dialogue/dialogue_choice.gd" id="4_q83ot"]
 [ext_resource type="Texture2D" uid="uid://canv7jl05x2ox" path="res://art/tutorials/dialogue/emotion_regular.png" id="5_0af3g"]
 [ext_resource type="Texture2D" uid="uid://bxfyp50shaqnr" path="res://art/quixley-portrait.png" id="6_i5wib"]
 [ext_resource type="Texture2D" uid="uid://c046pjyo2jq2h" path="res://art/tutorials/dialogue/emotion_happy.png" id="6_y2yvx"]
 [ext_resource type="Texture2D" uid="uid://blf2pvhyd7ton" path="res://art/tutorials/dialogue/emotion_sad.png" id="7_t35f3"]
-[ext_resource type="Shader" path="res://Scenes/dialogue/sliding_background.gdshader" id="8_xby0d"]
+[ext_resource type="Shader" uid="uid://b6hc6xrhhp2pe" path="res://Scenes/dialogue/sliding_background.gdshader" id="8_xby0d"]
 [ext_resource type="Texture2D" uid="uid://dmslpsi03el70" path="res://art/tutorials/dialogue/bubble_pattern.png" id="9_pvjpb"]
 [ext_resource type="AudioStream" uid="uid://buy4skkg7ckbc" path="res://art/tutorials/dialogue/talking_synth.ogg" id="10_t4qc5"]
 
@@ -105,10 +105,10 @@ text = "Wait! At least let me make a couple product recommendations for your fir
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_y6x0q"]
 shader = ExtResource("8_xby0d")
+shader_parameter/pattern_sampler = ExtResource("9_pvjpb")
 shader_parameter/bg_color = Color(0.980392, 0.94902, 0.72549, 1)
 shader_parameter/pattern_color = Color(0.996078, 0.878431, 0.564706, 1)
 shader_parameter/pattern_size = 256.0
-shader_parameter/pattern_sampler = ExtResource("9_pvjpb")
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3

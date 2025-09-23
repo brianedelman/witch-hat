@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bxadmuexqplsw"]
 
-[ext_resource type="Script" path="res://Scenes/ui/gold_ui.gd" id="1_g2185"]
+[ext_resource type="Script" uid="uid://b0jnk2v7qmcy5" path="res://Scenes/ui/gold_ui.gd" id="1_g2185"]
 [ext_resource type="Texture2D" uid="uid://bqwsfqd07ywyg" path="res://art/gold.png" id="1_upkqn"]
 
 [node name="GoldUI" type="HBoxContainer"]

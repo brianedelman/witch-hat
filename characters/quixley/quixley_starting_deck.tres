@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=4 format=3 uid="uid://cuh2t2wjw3ktt"]
 
 [ext_resource type="Resource" uid="uid://udi5n0xm4tso" path="res://characters/quixley/cards/atk_bonk.tres" id="1_4apgc"]
-[ext_resource type="Script" path="res://custom_resources/card.gd" id="1_6gyxx"]
-[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_r1rwa"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="1_6gyxx"]
+[ext_resource type="Script" uid="uid://d32qm3uexi8cf" path="res://custom_resources/card_pile.gd" id="1_r1rwa"]
 
 [resource]
 script = ExtResource("1_r1rwa")

@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://d0f2eotpm5ojn"]
+[gd_scene load_steps=8 format=3 uid="uid://d0f2eotpm5ojn"]
 
 [ext_resource type="PackedScene" uid="uid://dh6okqmlmxoxi" path="res://Scenes/ui/card_menu_ui.tscn" id="1_b6sby"]
-[ext_resource type="Script" path="res://Scenes/ui/card_rewards.gd" id="1_rrf1h"]
+[ext_resource type="Script" uid="uid://cuaq2k32xm5f" path="res://Scenes/ui/card_rewards.gd" id="1_rrf1h"]
 [ext_resource type="PackedScene" uid="uid://dt1okd7j347od" path="res://Scenes/ui/card_tooltip_popup.tscn" id="2_0w4gk"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="2_eb8os"]
 [ext_resource type="Resource" uid="uid://cr0y1nkisheml" path="res://characters/timea/cards/timea_sample_slash.tres" id="2_g1wus"]
 [ext_resource type="Resource" uid="uid://ilojojcfbrh1" path="res://characters/timea/cards/timea_sample_slam.tres" id="3_qfbwb"]
 [ext_resource type="Resource" uid="uid://cfdqrk22vemtt" path="res://characters/timea/cards/timea_sample_strength.tres" id="4_3ri5j"]
@@ -15,7 +16,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 0.643137)
 script = ExtResource("1_rrf1h")
-rewards = Array[Resource("res://custom_resources/card.gd")]([ExtResource("2_g1wus"), ExtResource("3_qfbwb"), ExtResource("4_3ri5j")])
+rewards = Array[ExtResource("2_eb8os")]([ExtResource("2_g1wus"), ExtResource("3_qfbwb"), ExtResource("4_3ri5j")])
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1

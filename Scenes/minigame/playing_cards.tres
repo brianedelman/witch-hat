@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="PlayingCards" load_steps=55 format=3 uid="uid://dwa6ombgv4jbb"]
 
-[ext_resource type="Script" path="res://Scenes/minigame/custom_resources/playing_card.gd" id="1_yvdw0"]
+[ext_resource type="Script" uid="uid://nig38qlnuw67" path="res://Scenes/minigame/custom_resources/playing_card.gd" id="1_yvdw0"]
 [ext_resource type="Resource" uid="uid://b7tw1gjf6agal" path="res://Scenes/minigame/cards/two_of_hearts.tres" id="2_0ihd5"]
 [ext_resource type="Resource" uid="uid://b7m4rsknac7hd" path="res://Scenes/minigame/cards/two_of_spades.tres" id="3_bxbgy"]
 [ext_resource type="Resource" uid="uid://cynfrej0vep4g" path="res://Scenes/minigame/cards/two_of_diamonds.tres" id="4_icrys"]
@@ -53,7 +53,7 @@
 [ext_resource type="Resource" uid="uid://q85gl4e7q1xk" path="res://Scenes/minigame/cards/ace_of_diamonds.tres" id="51_1ewl2"]
 [ext_resource type="Resource" uid="uid://bjwxaw4k38reo" path="res://Scenes/minigame/cards/ace_of_hearts.tres" id="52_k5dm2"]
 [ext_resource type="Resource" uid="uid://bcnrmkxkgfoyn" path="res://Scenes/minigame/cards/ace_of_spades.tres" id="53_gf3ca"]
-[ext_resource type="Script" path="res://Scenes/minigame/custom_resources/playing_cards.gd" id="54_qn60b"]
+[ext_resource type="Script" uid="uid://ex7chf1ax47o" path="res://Scenes/minigame/custom_resources/playing_cards.gd" id="54_qn60b"]
 
 [resource]
 script = ExtResource("54_qn60b")

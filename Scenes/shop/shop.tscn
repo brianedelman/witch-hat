@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://cgthw3ncknr4e"]
 
-[ext_resource type="Script" path="res://Scenes/shop/shop.gd" id="1_cw15r"]
+[ext_resource type="Script" uid="uid://byd1w6j0mbfhe" path="res://Scenes/shop/shop.gd" id="1_cw15r"]
 [ext_resource type="Texture2D" uid="uid://dtwjgq6tgsgve" path="res://art/background_card_shop.png" id="2_lanjj"]
 [ext_resource type="Texture2D" uid="uid://byrm8v1noc1d6" path="res://art/Croaker.png" id="3_i3rgp"]
 [ext_resource type="Texture2D" uid="uid://bis3g215vhfa6" path="res://art/Croaker_Blink.png" id="3_xp1da"]
@@ -41,8 +41,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_t1lll"]
 _data = {
-"Blink": SubResource("Animation_7sgj1"),
-"RESET": SubResource("Animation_5qwqk")
+&"Blink": SubResource("Animation_7sgj1"),
+&"RESET": SubResource("Animation_5qwqk")
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_8cevx"]
@@ -97,7 +97,7 @@ texture = ExtResource("3_i3rgp")
 [node name="ShopkeeperAnimation" type="AnimationPlayer" parent="DecorationLayer"]
 unique_name_in_owner = true
 libraries = {
-"": SubResource("AnimationLibrary_t1lll")
+&"": SubResource("AnimationLibrary_t1lll")
 }
 
 [node name="BlinkTimer" type="Timer" parent="DecorationLayer"]

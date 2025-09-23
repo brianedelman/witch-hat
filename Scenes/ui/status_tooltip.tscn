@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://7c4vgx5lpj2p"]
 
-[ext_resource type="Script" path="res://Scenes/ui/status_tooltip.gd" id="1_ghpkl"]
+[ext_resource type="Script" uid="uid://dn8tgre4u4pvx" path="res://Scenes/ui/status_tooltip.gd" id="1_ghpkl"]
 [ext_resource type="Texture2D" uid="uid://br7qu75d8j12a" path="res://art/expose.png" id="1_wcl0e"]
 
 [node name="StatusTooltip" type="HBoxContainer"]

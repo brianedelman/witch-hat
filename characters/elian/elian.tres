@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=6 format=3 uid="uid://dhuoocnlr0kpp"]
 
 [ext_resource type="Texture2D" uid="uid://cjb3lhwswo4dr" path="res://art/elian-square.png" id="1_aqtox"]
-[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_nca3g"]
+[ext_resource type="Script" uid="uid://3y3kmxhwma5o" path="res://custom_resources/character_stats.gd" id="1_nca3g"]
 [ext_resource type="Texture2D" uid="uid://bxwqtitj8cqn4" path="res://art/elian-portrait.png" id="2_2pmmu"]
 [ext_resource type="Texture2D" uid="uid://cve0b6sg51rl8" path="res://art/elian-square-knocked-out.png" id="2_sdtik"]
 [ext_resource type="StyleBox" uid="uid://ps7rvhq56pkj" path="res://characters/elian/elian_theme.tres" id="5_0a6fo"]

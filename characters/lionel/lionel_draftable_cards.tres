@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=6 format=3 uid="uid://e0sxu77t7pmo"]
 
-[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_g1nol"]
+[ext_resource type="Script" uid="uid://d32qm3uexi8cf" path="res://custom_resources/card_pile.gd" id="1_g1nol"]
 [ext_resource type="Resource" uid="uid://gy7d8hyt1vvq" path="res://characters/lionel/cards/lionel_sample_attack.tres" id="1_lxmn6"]
-[ext_resource type="Script" path="res://custom_resources/card.gd" id="1_xaapm"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="1_xaapm"]
 [ext_resource type="Resource" uid="uid://c4hphyrqa0d86" path="res://characters/lionel/cards/lionel_sample_rare.tres" id="2_k8uhs"]
 [ext_resource type="Resource" uid="uid://dr77pclrnv502" path="res://characters/lionel/cards/lionel_sample_uncommon.tres" id="3_d5c0i"]
 

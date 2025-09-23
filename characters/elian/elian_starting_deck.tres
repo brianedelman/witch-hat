@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="CardPile" load_steps=4 format=3 uid="uid://des305hovqxvs"]
+[gd_resource type="Resource" script_class="CardPile" load_steps=4 format=3 uid="uid://b8yt8bfodjbrh"]
 
-[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_7lvk2"]
-[ext_resource type="Script" path="res://custom_resources/card.gd" id="1_evd0e"]
-[ext_resource type="Resource" uid="uid://li62ketf30xw" path="res://characters/elian/cards/elian_sample_attack.tres" id="1_yr8rb"]
+[ext_resource type="Script" uid="uid://d32qm3uexi8cf" path="res://custom_resources/card_pile.gd" id="1_04eh0"]
+[ext_resource type="Resource" uid="uid://gy7d8hyt1vvq" path="res://characters/lionel/cards/lionel_sample_attack.tres" id="1_7n172"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="1_58l15"]
 
-cards = Array[ExtResource("1_evd0e")]([ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb"), ExtResource("1_yr8rb")])
+[resource]
+script = ExtResource("1_04eh0")
+cards = Array[ExtResource("1_58l15")]([ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172"), ExtResource("1_7n172")])

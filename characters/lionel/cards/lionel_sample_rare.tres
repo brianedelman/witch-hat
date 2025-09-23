@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=4 format=3 uid="uid://c4hphyrqa0d86"]
 
 [ext_resource type="Texture2D" uid="uid://boklhiqs1414d" path="res://art/tile_0115.png" id="1_1myh7"]
-[ext_resource type="Script" path="res://characters/lionel/cards/lionel_sample_rare.gd" id="1_kaj1h"]
+[ext_resource type="Script" uid="uid://dbak2suocc17k" path="res://characters/lionel/cards/lionel_sample_rare.gd" id="1_kaj1h"]
 [ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="3_c3uv0"]
 
 [resource]

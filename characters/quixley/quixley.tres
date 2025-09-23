@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=6 format=3 uid="uid://b62cx4x16x14l"]
 
-[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_0d5cm"]
+[ext_resource type="Script" uid="uid://3y3kmxhwma5o" path="res://custom_resources/character_stats.gd" id="1_0d5cm"]
 [ext_resource type="Texture2D" uid="uid://b3531lssghcw1" path="res://art/quixley-square.png" id="1_g1qho"]
 [ext_resource type="Texture2D" uid="uid://bxfyp50shaqnr" path="res://art/quixley-portrait.png" id="2_25c8v"]
 [ext_resource type="Texture2D" uid="uid://etvbqvr82wa1" path="res://art/quixley-square-knocked-out.png" id="2_67w0a"]

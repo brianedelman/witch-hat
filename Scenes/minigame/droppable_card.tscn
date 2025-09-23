@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cep0585ysmfjj"]
 
 [ext_resource type="Texture2D" uid="uid://b7irxn73ed08n" path="res://art/minigame/card_clubs_02.png" id="1_5ywah"]
-[ext_resource type="Script" path="res://Scenes/minigame/droppable_card.gd" id="1_tyhun"]
+[ext_resource type="Script" uid="uid://d2qu2f8ki3jer" path="res://Scenes/minigame/droppable_card.gd" id="1_tyhun"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_66y7w"]
 size = Vector2(42, 59)

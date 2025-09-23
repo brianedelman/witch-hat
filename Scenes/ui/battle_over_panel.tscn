@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://d2t3aqxhtt435"]
 
-[ext_resource type="Script" path="res://Scenes/ui/battle_over_panel.gd" id="1_4jo7w"]
+[ext_resource type="Script" uid="uid://cjsik8yqxn7jo" path="res://Scenes/ui/battle_over_panel.gd" id="1_4jo7w"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lk2pr"]
 bg_color = Color(0, 0, 0, 0.34902)

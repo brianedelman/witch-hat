@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=8 format=3 uid="uid://dvn64xjef3k5v"]
 
-[ext_resource type="Script" path="res://custom_resources/card.gd" id="1_3tno3"]
+[ext_resource type="Script" uid="uid://8rrjvpdrn05o" path="res://custom_resources/card.gd" id="1_3tno3"]
 [ext_resource type="Resource" uid="uid://bsl075v1svhfh" path="res://characters/timea/cards/timea_block_self.tres" id="1_75svd"]
 [ext_resource type="Resource" uid="uid://cfdqrk22vemtt" path="res://characters/timea/cards/timea_sample_strength.tres" id="1_ubnj2"]
-[ext_resource type="Script" path="res://custom_resources/card_pile.gd" id="1_vpxnq"]
+[ext_resource type="Script" uid="uid://d32qm3uexi8cf" path="res://custom_resources/card_pile.gd" id="1_vpxnq"]
 [ext_resource type="Resource" uid="uid://cxhtbg1b7hpxr" path="res://characters/timea/cards/timea_sample_attack.tres" id="2_cm5r6"]
 [ext_resource type="Resource" uid="uid://cr0y1nkisheml" path="res://characters/timea/cards/timea_sample_slash.tres" id="3_40lrt"]
 [ext_resource type="Resource" uid="uid://ilojojcfbrh1" path="res://characters/timea/cards/timea_sample_slam.tres" id="4_8dvqf"]

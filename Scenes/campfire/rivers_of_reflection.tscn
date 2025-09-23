@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=3 uid="uid://cj66v0ce0uogr"]
 
-[ext_resource type="Script" path="res://Scenes/campfire/rivers_of_reflection.gd" id="1_7cymp"]
+[ext_resource type="Script" uid="uid://gv1ybn0oow3n" path="res://Scenes/campfire/rivers_of_reflection.gd" id="1_7cymp"]
 [ext_resource type="Texture2D" uid="uid://c437ap6ksutd5" path="res://sample_assets/Poses/RPG Tiles Vector/Tilesheet/RPGpack_sheet.png" id="1_t6je0"]
 [ext_resource type="PackedScene" uid="uid://ckqfkj32u0vkk" path="res://Scenes/TestPlayer/Player.tscn" id="2_txdd5"]
 [ext_resource type="Texture2D" uid="uid://hulu6vkbf8tp" path="res://art/line.png" id="3_mqoxc"]
@@ -319,8 +319,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0xy33"]
 _data = {
-"RESET": SubResource("Animation_krq11"),
-"fade_out": SubResource("Animation_uuybi")
+&"RESET": SubResource("Animation_krq11"),
+&"fade_out": SubResource("Animation_uuybi")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f436m"]

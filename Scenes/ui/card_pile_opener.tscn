@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://lisip2klq2d4"]
 
 [ext_resource type="Texture2D" uid="uid://deyibwgy1mkh5" path="res://art/draw.png" id="1_sjk3r"]
-[ext_resource type="Script" path="res://Scenes/ui/card_pile_opener.gd" id="2_wabol"]
+[ext_resource type="Script" uid="uid://c6n7yppj0ma40" path="res://Scenes/ui/card_pile_opener.gd" id="2_wabol"]
 
 [node name="CardPileOpener" type="TextureButton"]
 custom_minimum_size = Vector2(16, 16)

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://d1swjjxcq8gce"]
 
-[ext_resource type="Script" path="res://Scenes/minigame/column.gd" id="1_fwfl0"]
-[ext_resource type="Script" path="res://Scenes/minigame/drop_area.gd" id="1_m35x2"]
+[ext_resource type="Script" uid="uid://cig0b1f47o33s" path="res://Scenes/minigame/column.gd" id="1_fwfl0"]
+[ext_resource type="Script" uid="uid://baf1mwon37uf7" path="res://Scenes/minigame/drop_area.gd" id="1_m35x2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p7gfg"]
 size = Vector2(100, 284)

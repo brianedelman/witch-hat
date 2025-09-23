@@ -1,6 +1,6 @@
 [gd_scene load_steps=26 format=3 uid="uid://rmu3sf8th8ti"]
 
-[ext_resource type="Script" path="res://animation_tests/player.gd" id="1_dvk06"]
+[ext_resource type="Script" uid="uid://bvucj3njd2juw" path="res://animation_tests/player.gd" id="1_dvk06"]
 [ext_resource type="Texture2D" uid="uid://cqhyvxyv3n666" path="res://art/world_map_assets/QuixMovement-Sheet.png" id="2_4fyhb"]
 [ext_resource type="AudioStream" uid="uid://wy5p780ehy2" path="res://audio/music/BoFIIIDemoRoom.mp3" id="3_s76aj"]
 
@@ -157,15 +157,15 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1llu4"]
 _data = {
-"RESET": SubResource("Animation_wnria"),
-"idle_down": SubResource("Animation_vmhlj"),
-"idle_left": SubResource("Animation_ag84a"),
-"idle_right": SubResource("Animation_e2pui"),
-"idle_up": SubResource("Animation_6sjvd"),
-"walk_down": SubResource("Animation_ij1a2"),
-"walk_left": SubResource("Animation_x2j6r"),
-"walk_right": SubResource("Animation_wjvhv"),
-"walk_up": SubResource("Animation_jj40d")
+&"RESET": SubResource("Animation_wnria"),
+&"idle_down": SubResource("Animation_vmhlj"),
+&"idle_left": SubResource("Animation_ag84a"),
+&"idle_right": SubResource("Animation_e2pui"),
+&"idle_up": SubResource("Animation_6sjvd"),
+&"walk_down": SubResource("Animation_ij1a2"),
+&"walk_left": SubResource("Animation_x2j6r"),
+&"walk_right": SubResource("Animation_wjvhv"),
+&"walk_up": SubResource("Animation_jj40d")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_etlmq"]

@@ -1,11 +1,11 @@
 [gd_scene load_steps=20 format=3 uid="uid://ddws3fuu5kbq5"]
 
-[ext_resource type="Script" path="res://Scenes/dialogue/dialogue.gd" id="1_kkqvw"]
-[ext_resource type="Shader" path="res://Scenes/dialogue/sliding_background.gdshader" id="1_tltds"]
+[ext_resource type="Script" uid="uid://bs22n1e1mv4pk" path="res://Scenes/dialogue/dialogue.gd" id="1_kkqvw"]
+[ext_resource type="Shader" uid="uid://b6hc6xrhhp2pe" path="res://Scenes/dialogue/sliding_background.gdshader" id="1_tltds"]
 [ext_resource type="Texture2D" uid="uid://dmslpsi03el70" path="res://art/tutorials/dialogue/bubble_pattern.png" id="2_5nqcm"]
-[ext_resource type="Script" path="res://custom_resources/dialogue/dialogue_item.gd" id="2_d1aix"]
+[ext_resource type="Script" uid="uid://dp2c6s2ivlvh0" path="res://custom_resources/dialogue/dialogue_item.gd" id="2_d1aix"]
 [ext_resource type="Texture2D" uid="uid://hboqsav41kbm" path="res://art/tutorials/dialogue/sophia.png" id="3_1w68n"]
-[ext_resource type="Script" path="res://custom_resources/dialogue/dialogue_choice.gd" id="4_f0hcl"]
+[ext_resource type="Script" uid="uid://u2vqvobsk7w0" path="res://custom_resources/dialogue/dialogue_choice.gd" id="4_f0hcl"]
 [ext_resource type="AudioStream" uid="uid://buy4skkg7ckbc" path="res://art/tutorials/dialogue/talking_synth.ogg" id="4_pw5lo"]
 [ext_resource type="Texture2D" uid="uid://canv7jl05x2ox" path="res://art/tutorials/dialogue/emotion_regular.png" id="5_rwpv0"]
 [ext_resource type="Texture2D" uid="uid://c046pjyo2jq2h" path="res://art/tutorials/dialogue/emotion_happy.png" id="6_p30j2"]
@@ -64,10 +64,10 @@ text = "Goodbye then..."
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_y6x0q"]
 shader = ExtResource("1_tltds")
+shader_parameter/pattern_sampler = ExtResource("2_5nqcm")
 shader_parameter/bg_color = Color(0.980392, 0.94902, 0.72549, 1)
 shader_parameter/pattern_color = Color(0.996078, 0.878431, 0.564706, 1)
 shader_parameter/pattern_size = 256.0
-shader_parameter/pattern_sampler = ExtResource("2_5nqcm")
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3
